@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/cliente"
+            android:title="Cliente" />
+        <item
+            android:id="@+id/proveedor"
+            android:title="Proveedor" />
+        <item
+            android:id="@+id/compra"
+            android:title="Compra" />
+        <item
+            android:id="@+id/zarandear"
+            android:title="Zarandear" />
+        <item
+            android:id="@+id/venta"
+            android:title="Venta" />
+        <item
+            android:id="@+id/caja"
+            android:title="Caja" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Reportes" />
+    </group>
+</menu>
